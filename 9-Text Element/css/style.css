@@ -1,0 +1,18 @@
+.container {
+  background: #eee;
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+  margin-left: 20px;
+}
+.svg-text{
+  fill: red;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.svg-text tspan{
+  fill: blue;
+  font-weight: lighter;
+}

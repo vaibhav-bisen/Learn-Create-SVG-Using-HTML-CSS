@@ -1,0 +1,24 @@
+.container {
+  background: #eee;
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+  margin-left: 20px;
+}
+/* .circle{
+  transform: rotate(20deg);
+}
+.rectangle{
+  transform: rotate(20deg);
+} */
+.combine{
+  stroke: aqua; 
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+.first{
+  stroke-dasharray: 3,1;
+}
+.second{
+  stroke-dasharray: 5,3;
+}

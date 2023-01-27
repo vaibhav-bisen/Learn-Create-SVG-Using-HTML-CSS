@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Circle Element</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>SVG Gradients</h1>
+    <div class="container">
+      <svg viewBox="0 0 100 100">
+        <!-- Linear Gradient -->
+        <!-- x1="0%" y1="0%" x2="70%" y2="70%" === gradient direction -->
+        <!-- <defs>
+          <linearGradient id="g_effect" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0%" stop-color="yellowgreen" stop-opacity="0.5" />
+            <stop offset="100%" stop-color="orange" />
+          </linearGradient>
+        </defs> -->
+
+        <!-- Radient Gradient -->
+        <!-- cx="50%" cy="50%" ==== Position of circle
+        r="40%" ==== Radius of circle
+        fx="50%" fy="50%" ===== Focal length
+        spreadmethod="reflect"&"repeat"   -->
+        <defs>
+          <radialGradient id="g_effect" cx="50%" cy="50%" r="40%" fx="50%" fy="50%" spreadmethod="reflect">
+            <stop offset="0%" stop-color="red" stop-opacity="1" />
+            <stop offset="50%" stop-color="white" />
+            <stop offset="100%" stop-color="orange" />
+          </radialGradient>
+        </defs>
+        <rect class="rectangle" x="10" y="30" width="60" height="30" stroke="black" ></rect>
+      </svg>
+    </div>
+  </body>
+</html>

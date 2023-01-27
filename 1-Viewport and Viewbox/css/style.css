@@ -1,0 +1,14 @@
+.container {
+  background: #eee;
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* Viewport -> Means jitna area apne ko dikhana hai */
+/* svg {
+  border: 1px solid red;
+  width: 200px;
+  height: 200px;
+} */

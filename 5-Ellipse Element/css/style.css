@@ -1,0 +1,20 @@
+.container {
+  background: #eee;
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+  margin-left: 20px;
+}
+.second{
+  transform: rotate(45deg);
+  transform-origin: 50% 50%;
+}
+.third{
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+.fourth{
+  transform: rotate(135deg);
+  transform-origin: 50% 50%;
+}
+
